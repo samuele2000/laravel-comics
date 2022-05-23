@@ -22,6 +22,22 @@
         
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="link">
+            <div class="box">
+                @include('partials.footer-link.footerLink1')
+                @include('partials.footer-link.footerLink2')
+                @include('partials.footer-link.footerLink3')
+                @include('partials.footer-link.footerLink4')
+                <div class="logo-dc"></div>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="box-social">
+                @include('partials.footer-link.footerSocial')
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>

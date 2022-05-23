@@ -17,7 +17,9 @@ Route::get('/', function () {
     
     $comics = config('comics');
     $menuHero = config('menuHero');
+    $linkFooter = config('linkFooter');
 
-    return view('home', ['comics' => $comics], ['menuHero' => $menuHero]);
+    return view('home', ['comics' => $comics], ['menuHero' => $menuHero], ['linkFooter' => $linkFooter]);
 
 });
+
