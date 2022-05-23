@@ -16,6 +16,9 @@
         @include('partials.jumbo')
         
         @yield('section-1')
+
+        @yield('section-2')
+
         
     </main>
 

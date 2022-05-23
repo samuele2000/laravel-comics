@@ -7,7 +7,7 @@
 
 header{
     nav{
-         display: flex;
+        display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px 0;
@@ -94,5 +94,30 @@ header{
         }    
     }
 }
+
+.menuHero{
+    background-color: #027BF3;
+    padding: 40px 0;
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        li{
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 60px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;  
+        }
+    }
+}    
 
 

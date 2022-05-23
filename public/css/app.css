@@ -101,3 +101,32 @@ header ul a {
   font-size: 1.3em;
 }
 
+.menuHero {
+  background-color: #027BF3;
+  padding: 40px 0;
+}
+
+.menuHero ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.menuHero ul li {
+  display: flex;
+  align-items: center;
+}
+
+.menuHero ul img {
+  width: 60px;
+}
+
+.menuHero ul a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
