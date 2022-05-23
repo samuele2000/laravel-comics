@@ -35,3 +35,69 @@ header ul a {
   background-size: cover;
 }
 
+.container {
+  background-color: black;
+  padding: 40px 0;
+  color: white;
+}
+
+.container .box {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container div {
+  width: 16.6666666667%;
+}
+
+.container div ul {
+  margin: 0 10px 10px 10px;
+  padding: 0;
+}
+
+.container div ul li {
+  list-style-type: none;
+}
+
+.container div ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container div ul li img {
+  width: 100%;
+}
+
+.container .button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container .button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #027BF3;
+  padding: 5px 40px;
+}
+
+.container .box-h3 {
+  margin-top: -60px;
+  margin-left: 130px;
+}
+
+.container .box-h3 h3 {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #027BF3;
+  padding: 10px;
+  font-size: 1.3em;
+}
+

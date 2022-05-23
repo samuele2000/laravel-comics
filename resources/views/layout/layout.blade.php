@@ -14,6 +14,9 @@
 
     <main>
         @include('partials.jumbo')
+        
+        @yield('section-1')
+        
     </main>
 
     <footer></footer>
