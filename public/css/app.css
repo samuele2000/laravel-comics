@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -213,5 +217,189 @@ footer .social ul li h3 {
   color: white;
   text-decoration: none;
   margin: 0 15px;
+}
+
+.bg-blu {
+  background-color: #027BF3;
+  height: 80px;
+}
+
+.bg-blu div img {
+  margin-top: -230px;
+  margin-left: 200px;
+  border: 1px solid white;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-comic {
+  width: 70%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.box-comic .flex .col {
+  flex-basis: 60%;
+}
+
+.box-comic .flex h2 {
+  margin-bottom: 20px;
+  color: #16405C;
+}
+
+.box-comic .flex p {
+  line-height: 25px;
+  color: grey;
+}
+
+.box-comic .flex .price {
+  display: flex;
+  justify-content: space-around;
+  background-color: #70B764;
+  margin-bottom: 20px;
+}
+
+.box-comic .flex .price .prezzo {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 70%;
+  border-right: 2px solid #467540;
+  padding: 10px;
+}
+
+.box-comic .flex .price select {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.box-comic .flex .price h5 {
+  color: #A5ED9E;
+}
+
+.box-comic .flex .price span {
+  color: #fff;
+}
+
+.advertising {
+  background-image: url("/images/adv.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: calc(40% - 20px);
+}
+
+.sezione-2 {
+  background-color: #F6F6F6;
+  padding: 50px 0;
+}
+
+.sezione-2 .details {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sezione-2 .details .talent {
+  flex-basis: calc(50% - 30px);
+}
+
+.sezione-2 .details .talent h3 {
+  margin-bottom: 30px;
+  color: #16405C;
+}
+
+.sezione-2 .details .talent .artists {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 5px 0;
+}
+
+.sezione-2 .details .talent .artists h4 {
+  color: #16405C;
+}
+
+.sezione-2 .details .talent .artists div {
+  width: 70%;
+  color: #027BF3;
+}
+
+.sezione-2 .details .talent .writers {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+.sezione-2 .details .talent .writers h4 {
+  color: #16405C;
+}
+
+.sezione-2 .details .talent .writers div {
+  width: 70%;
+  color: #027BF3;
+}
+
+.sezione-2 .details .specs {
+  flex-basis: 50%;
+}
+
+.sezione-2 .details .specs h3 {
+  margin-bottom: 30px;
+  color: #16405C;
+}
+
+.sezione-2 .details .specs .series {
+  display: flex;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+.sezione-2 .details .specs .series h4 {
+  color: #16405C;
+  margin-right: 100px;
+}
+
+.sezione-2 .details .specs .series span {
+  color: #027BF3;
+}
+
+.sezione-2 .details .specs .us-price {
+  display: flex;
+  padding: 5px 0;
+}
+
+.sezione-2 .details .specs .us-price h4 {
+  color: #16405C;
+  margin-right: 65px;
+}
+
+.sezione-2 .details .specs .date {
+  display: flex;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 5px 0;
+}
+
+.sezione-2 .details .specs .date h4 {
+  color: #16405C;
+  margin-right: 50px;
+}
+
+.sezione-2 .icon {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  color: gray;
 }
 
