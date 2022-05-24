@@ -6,12 +6,15 @@
         <h3>CURRENT SERIES</h3>
     </div>
     <div class="box">
-        @foreach ($comics as $comic)
+        @foreach ($comics as $key => $comic)
         <div>
             <ul>
                 <li>
-                    <img src="{{$comic['thumb']}}" alt="">
-                    <a href="">{{$comic['title']}}</a>
+                    <a href="{{ route('comic', ['id' => $key]) }}">
+                       <img src="{{$comic['thumb']}}" alt="">
+                        <h3>{{$comic['title']}}</h3> 
+                    </a>
+                    
                 </li>
             </ul>
         </div>

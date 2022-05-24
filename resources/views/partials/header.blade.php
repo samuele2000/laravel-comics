@@ -8,7 +8,7 @@
                 <a href="/characters">CHARACTERS</a>
             </li>
             <li>
-                <a class="select" href="/characters">COMICS</a>
+                <a class="select" href="/">COMICS</a>
             </li>
             <li>
                 <a href="/characters">MOVIES</a>
