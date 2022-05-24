@@ -1,0 +1,88 @@
+
+footer {
+    .link {
+        background-image: url('/images/footer-bg.jpg');
+
+        .box {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 0;
+
+            .logo-dc {
+                background-image: url('/images/dc-logo-bg.jpg');
+                width: 40%;
+                height: 300px;
+                background-size: cover;
+                background-position-y: center;
+
+            }
+
+            .links {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    h4 {
+                        color: #fff;
+                    }
+
+                    a {
+                        color: gray;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-social{
+        background-color: #2A2A2A;
+        padding: 20px 0;
+        .box-social{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .sign{
+            text-decoration: none;
+            border: 2px solid #027BF3;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    margin: 0 10px;
+                }
+                h3{
+                    color: #027BF3;
+                    font-weight: bolder;
+                    margin: 0 10px; 
+                }
+            }
+
+        }
+    }
+}

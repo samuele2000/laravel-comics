@@ -1,0 +1,95 @@
+.container {
+    background-color: black;
+    padding: 40px 0;
+    color: white;
+
+    .box {
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    div {
+        width: calc(100% / 6);
+
+        ul {
+            margin: 0 10px 10px 10px;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .button {
+        text-align: center;
+        margin-top: 30px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: #027BF3;
+            padding: 5px 40px;
+        }
+    }
+
+    .box-h3 {
+        margin-top: -60px;
+        margin-left: 130px;
+
+        h3 {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: #027BF3;
+            padding: 10px;
+            font-size: 1.3em;
+
+        }
+    }
+}
+
+.menuHero {
+    background-color: #027BF3;
+    padding: 40px 0;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            width: 60px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+    }
+}

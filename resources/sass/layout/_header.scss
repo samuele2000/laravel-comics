@@ -1,0 +1,32 @@
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        width: 80%;
+        margin: auto;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+    }
+}
+
+.jumbo {
+    height: 400px;
+    background-image: url('/images/jumbotron.jpg');
+    background-size: cover;
+}
